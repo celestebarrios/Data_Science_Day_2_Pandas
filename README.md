@@ -1,3 +1,15 @@
 "# Data_Science_Day_2_Pandas" 
 
-Thus the groupby operation allows you to rapidly make summary observations about the state of your entire dataset at flexible granularity. In one line above, we actually did something very complicated - that's the power of the dataframe. In fact, the process often consists of several iterative groupby operations, each revealing greater insight than the last - if you don't know where to start with a dataset, try a bunch of groupbys!
+# step 1: Add a new column with the key 'Team' and all column values should be 'BOS'
+
+# step 2: Group by the 'Team' column and get total home runs and rbi's
+
+# Produce data for both 2017 and 2018
+# red = pd.DataFrame.from_dict(bsball2017)
+# red2 = pd.DataFrame.from_dict(bsball2018)
+# # "''"
+# # TEAM    HR   RBI
+# # ----------------
+# # BOS     144  538
+# # """
+
